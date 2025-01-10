@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Form for applying in N.I</h1>
+    <form action="post">
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter Your Name"
+        />
+      </div>
+      <div>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe For New Opportunity</label>
+      </div>
+      <div>
+          <label for="comment">Enter Your Opinion....</label>
+            <br>
+            <!-- br tag is used for adding line break -->
+        <textarea id="comment" name="comment" rows="5" cols="40"></textarea> 
+      </div>
+      <div>
+        <select name="Fruits" id="fruit">
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Cherry">Cherry</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
