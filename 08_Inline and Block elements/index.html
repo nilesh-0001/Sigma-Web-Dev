@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline and Block Elements</title>
+    <style>
+      /* p{
+            background-color: lightcoral;
+        }
+        a{
+            background-color: lightseagreen;
+        }
+        div{
+            background-color: yellow;
+        } */
+    </style>
+  </head>
+  <body>
+    <!-- <h2>Inline Elements</h2>
+    <p>Inline Elements do not start on a new line and only take up as much as width neccessary.</p>
+    <h2>Block Elements</h2>
+    <p>Block level Elements are those that start on anew line and take up the Entire width of their container by default, They essentially claim all the horizontal space for themselves pushing any content that comes after them to a new line</p> -->
+
+    <!-- Example of Block Element -->
+    <p>My name is Nilesh Bisht</p>
+    <div>I am Div</div>
+    <!-- Example of Inline Element -->
+    <span>I am Span</span>
+    <a href="https://www.goggle.com">Google</a>
+
+    <!-- Quick quiz -->
+    <!-- Without using br tag write a vertically alligned form for name city and pincide of a user -->
+    <form action="post">
+      <h2>Form for gathering your info</h2>
+      <label for="name">Enter your Name</label>
+      <div>
+        <input type="text" id="name" placeholder="Enter your Name" />
+      </div>
+      <label for="city">Select you City</label>
+      <div>
+        <select name="city" id="city">
+          <option value="Haryana">Haryana</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Punjab">Punjab</option>
+        </select>
+      </div>
+      <label for="pincide">Enter you Pincode</label>
+      <div>
+        <input type="text" id="pincode" name="pincode" placeholder="pincode" />
+      </div>
+      <div>
+        <button><a href="#">Submit</a></button>
+      </div>
+    </form>
+  </body>
+</html>
