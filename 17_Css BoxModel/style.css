@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  background-color: rgb(87, 87, 203);
+}
+.box1 {
+  color: red;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  height: 200px;
+  box-sizing: border-box;
+}
+.box2 {
+  color: yellow;
+  padding: 20px;
+  margin: 10px;
+  height: 100px;
+  box-sizing: border-box;
+}
