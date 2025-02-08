@@ -1,0 +1,27 @@
+/* The Specificity of this selector is 1 */
+h1{
+    color: yellow;
+}
+/* The Specificity of this selector is 1 + 10 = 11 */
+h1.yellow{
+    color: aqua;
+}
+/* The Specificity of this selector is 10 */
+.red{
+    color: red;
+}
+/* The Specificity of this selector is 10 */
+/* The !impoetant is gonna over ride all the Elements */
+.blue{
+    color: rgb(22, 44, 187) /*!important; */
+}
+/* This is an Example of attribute Selector The Specificity of this selector is 10 */
+[data-x=a]{/* background-color: rgb(250, 52, 52); */
+    color: maroon;
+}
+/* The Specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41 */
+a.harry .rohan-class[href]:hover{
+    color: maroon;
+}
+
+/* Always make your website easy and also use meaningfull selector to avoid overriding . */
