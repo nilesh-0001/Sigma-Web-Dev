@@ -1,0 +1,49 @@
+/* There are Multiple Types of sizing units Available in Css  */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+
+.box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: rgb(168, 128, 207);
+    /* width: 1536px; */
+    width: 80vw;
+    margin: auto;
+    height: 5vh;
+}
+.container{
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: rgb(168, 128, 207);
+    /* width: 1536px; */
+    width: 80vw;
+    margin: 23px auto;
+    /* height: 20vh; */
+    min-height: 80vh;
+    /* font-size: 18px; */
+}
+.container > div {
+    font-size: 1.5em;
+    width: 50%;
+    border: 2px solid red;
+}
+.container > div > div{
+    border: 2px solid blue;
+    width: 50%;
+}
+.me{
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: aqua;
+    font-size: 20px;
+    width: 80vw;
+    margin: 23px auto;
+    height: 5vh;
+}
+
+
