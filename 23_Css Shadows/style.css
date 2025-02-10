@@ -1,0 +1,13 @@
+.box{
+    border: 2px solid black;
+    padding: 34px;
+    box-shadow: 5px 5px 15px 5px #888888;
+}
+.sh{
+    text-shadow: 2px 2px 4px #d13a3a ;
+    /* padding: 25px; */
+    outline: 2px solid black;
+    border: 2px solid red;
+    outline-offset: 30px;
+    border-radius: 25px;
+}
