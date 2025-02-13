@@ -1,0 +1,53 @@
+* { 
+margin:0;
+padding:0;
+Box-sizing: border-box;
+Font-family:'Poppins';
+}
+
+.box{
+    border: 2px solid black;
+    height: 433px;
+    width: 80vw;
+    margin: 3px;
+    padding: 3px;
+}
+.box1{
+    background-color:aqua ;
+    /* position: sticky;
+    top: 0px;
+    height: 111px;
+    width: 100%;
+    margin: 0;
+    padding: 0; */
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    
+}
+.box2{
+    background-color: red;
+    /* position: relative;
+    top: 34px;
+    left: 56px; */
+}
+.box3{
+    background-color: yellow;
+    /* position: fixed;
+    bottom: 0px;
+    left: 5vw;
+    height: 111px; */
+}
+.box4{
+    background-color:rgb(100, 100, 225) ;
+}
+.parent{
+    /* transform, filter, perspective property can also make an element appeared as posistioned */
+    margin: 34px;
+    padding: 43px;
+    border: 2px solid black;
+    /* position: relative; */
+    /* transform: translate(0); */
+    /* filter: invert(0); */
+    perspective: 0em;
+}
