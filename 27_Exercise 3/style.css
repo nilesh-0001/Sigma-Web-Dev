@@ -1,0 +1,69 @@
+body{
+    background: black;
+}
+.black{
+    background: white;
+    height:570px;
+    width: 370px;
+    margin: 550px;
+    top: 100px;
+}
+.card{
+    /* margin-top: 15px; */
+    position: relative;
+    top: 15px;
+    height: 550px;
+    width: 350px;
+    background: rgb(238, 233, 233);
+    margin: 10px;
+    border-radius: 20px;
+}
+.moun{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    border-radius: 20px;
+}
+.boxes{
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+}
+.h{
+    position: relative;
+    left: 30px;
+}
+.nat{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    border: 2px solid gray;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: rgb(70, 69, 69);
+}
+.lake{
+    position: relative;
+    top: 10px;
+    border: 2px solid gray;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: rgb(70, 69, 69);
+}
+.lines{
+    position: relative;
+    top: -10px;
+    left: 10px
+}
+.btn{
+    position: relative;
+    bottom: 75px;
+    border: 2px solid rgb(48, 191, 244);
+    left: 120px;
+    color: rgb(13, 143, 204);
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: rgb(153, 195, 247);
+}
