@@ -1,0 +1,30 @@
+:root{
+    --color:rgb(253, 199, 199);
+    --secolor:rgb(97, 200, 234);
+    --daefpad:24px;
+    --defop: 0.2;
+
+}
+.nav{
+    background: var(--secolor);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+}
+ul li{
+    opacity: var(--defop);
+    list-style: none;
+    padding: var(--daefpad);
+    border: 5px solid var(--color);
+}
+ul li:first-child{
+    --color:rgb(250, 242, 133);
+    background: var(--color,blue);
+}
+.container{
+    background: var(--color);
+}
