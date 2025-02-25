@@ -1,0 +1,28 @@
+:root{
+    --color:rgb(101, 101, 246);
+    --seccolor: rgb(17, 45, 128);
+    --defop: 0.4;
+    --defpad:20px;
+    --thcolor:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: var(--defpad);
+    background: var(--color);
+    color: var(--thcolor);
+}
+body{
+    background: var(--seccolor);
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: var(--thcolor);
+    text-decoration: none;
+}
