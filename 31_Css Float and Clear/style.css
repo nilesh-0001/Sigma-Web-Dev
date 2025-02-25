@@ -1,0 +1,14 @@
+img{
+    float: left;
+}
+.Card{
+    border: 2px solid black;
+    display: flow-root;
+}
+.cart{
+    border: 2px solid red;
+}
+.cart:nth-child(3){
+    background-color: aqua;
+    clear: left;
+}
