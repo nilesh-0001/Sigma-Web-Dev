@@ -1,0 +1,41 @@
+/* .box:first-child{
+    background-color: red;
+}
+.box::first-line{
+    color: yellow;
+} */
+
+/* .boxes *{
+    color: red;
+    border: 2px solid black;
+}
+ .box, [data-color="Primary"]{
+    padding-top: 45px;
+
+ } */
+
+/* .box:nth-child(even){
+    background-color: blue;
+} */
+
+/* .box:nth-last-child(1){
+    background-color: red;
+} */
+ /* .boxes::before{
+    content: "Nishu is Good";
+    color: brown;
+ }
+ .boxes::after{
+    content: "I am a Good Boy";
+    color: brown;
+ }
+ ::selection{
+    background-color: black;
+    color: aqua;
+ }
+ .box::first-letter{
+    color: peru;
+ }
+ input::placeholder{
+    color: red;
+ } */
