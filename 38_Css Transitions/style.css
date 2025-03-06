@@ -1,0 +1,22 @@
+h5{
+    font-weight: normal;
+}
+.container{
+    background-color: purple;
+    width: 50vw;
+    height: 40vh;
+}
+.box{
+    background-color: olivedrab;
+    width: 5vw;
+    height: 4vh;
+    /* transition-property:background-color,transform ;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+    transition: all 3s ease-out 2s;
+}
+.translate{
+    transform: translateX(20vw) translateY(15vh) scale(2);
+    background-color: whitesmoke;
+}
