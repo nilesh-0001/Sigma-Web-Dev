@@ -1,0 +1,17 @@
+.box{
+    width: 45px;
+    height: 56px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px;
+}
+.bbox{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
